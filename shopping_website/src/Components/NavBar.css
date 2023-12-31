@@ -1,0 +1,65 @@
+/* NavBar Styles */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 125px
+  }
+  
+  /* Logo Style */
+  .logo {
+    font-size: 55px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 45%;
+
+  }
+  
+  /* Nav Link Styles */
+  .nav-link {
+    text-decoration: none;
+  }
+  
+  /* Shop Button Styles */
+  .shop-button {
+    background-color: royalblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    position: relative;
+    left: 650px;
+    height: 70px;
+    width: 100px;
+    font-size: larger;
+  }
+  .shop-button:hover {
+    background-color: #ff6600;
+  }
+  
+  /* Cart Button Styles */
+  .cart-button {
+    background-color: royalblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    height: 70px;
+    width: 100px;
+    font-size: larger;
+  
+  }
+  
+  .cart-button:hover {
+    background-color: #cc0000;
+  }
+  
